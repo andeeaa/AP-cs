@@ -61,7 +61,8 @@ public class RollingRockSimulation {
       System.out.printf("It takes on average %.2f attempts to achieve a success.", average_attempts);
       
       System.out.println("\n\nThe number of times two boulders made it in sucession is " + two_in_succession + "times.");
-   
+      double attempts_to_two = (10000 / (double)two_in_succession);
+      System.out.printf("It takes on average %.2f attempts to get two boulders to the top in succession.", attempts_to_two);
    
    } //end main method
    
